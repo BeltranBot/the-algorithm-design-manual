@@ -14,8 +14,6 @@ function caseData (i, n) {
   return [i, candidates, ballots]
 }
 
-let gcounter = 0
-
 function getWinner (candidates, ballots) {
   let totalBallots = ballots.length
   let winnersCut = totalBallots / 2
