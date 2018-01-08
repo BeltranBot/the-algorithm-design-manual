@@ -10,9 +10,10 @@ def find_match(needle, stack):
         j = 0
         while j < n and needle[j] == stack[i + j]:
             j += 1
-        if j == n:
-            return i
-        i += 1
-    return -1
+            if j == n:
+                return i
+            i += 1
+        return -1
+
 if __name__ == '__main__':
     print(find_match('needle', 'this is a stack of needles'))
