@@ -44,7 +44,6 @@ def main(filename):
     input_data = input_data.split('\n')
     input_data = [line.split() for line in input_data]
 
-    # while input_data[0] != = '0' and input_data[1] !== '0':
     for line in input_data:
         if line[0] == '0' and line[1] == '0':
             break
