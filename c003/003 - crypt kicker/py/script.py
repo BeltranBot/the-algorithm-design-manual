@@ -41,7 +41,6 @@ def create_sub(enc, word, subs):
     return new_subs
 
 def decrypt(enc, words, subs=None):
-    # print('here', subs)
     if subs is None:
         subs = {c: None for c in ALPHABET}
 
