@@ -22,7 +22,7 @@ function calculateFlips (a, b) {
 }
 
 function solve (n) {
-    n = n.split('\r\n')
+    n = n.split('\n')
     let output = ''
 
     for (let numbers of n) {
